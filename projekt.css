@@ -1,0 +1,172 @@
+
+*{
+    margin: auto;
+}
+
+
+.navbar-collapse {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .navbar-collapse{
+    margin-left: 200px ;
+    padding: 30px;
+    
+  }
+
+.nav-link:hover{
+    text-decoration: underline; 
+}
+
+
+.hero-section {
+    background: url('/images/photo-1473973916745-60839aebf06b.avif') 50% no-repeat;
+    background-size: cover;
+    height: hero-height;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+
+
+    .hero-section-text {
+      color: white;
+      text-shadow: 1px 1px 2px black;
+    }
+  }
+  
+   .sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  width: 100%;
+}
+
+.button {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-left: 100px;
+  background-color:white;
+  border-color: rgb(0, 0, 0);
+  color: black;
+
+}
+
+.button:hover{
+background-color: rgb(127, 208, 145);
+color: white;
+border-color: rgb(23, 93, 27);
+}
+
+
+
+.paragraf{
+  margin-top: 50px;
+  font-size: larger;
+  font-family: "Sunshiney", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.marketing-site-content-section {
+  display: flex;
+  flex-wrap: wrap;
+
+  .button.round {
+    border-radius: 5000px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 200px;
+    background-color:white;
+    border-color: rgb(192, 180, 25);
+    color: black;
+  }
+
+  .button.round:hover{
+background-color: rgb(202, 197, 136);
+color: white;
+border-color: black;
+  }
+
+
+  .marketing-site-content-section-img {
+    align-self: center;
+    flex: 1 0 100%;
+
+    img {
+      width: 100%;
+    }
+
+    @media screen and (min-width: 40em) {
+      flex: 1 0 50%;
+    }
+  }
+
+  .marketing-site-content-section-block {
+    padding: 1rem;
+    flex: 1 0 100%;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media screen and (min-width: 40em) {
+      flex: 1 0 50%;
+      padding: 2rem;
+    }
+  }
+}
+
+.marketing-site-content-section-block-header {
+  font-size: 24px;
+}
+
+.marketing-site-content-section-block-subheader {
+  font-size: 13px;
+}
+
+
+ .photo{
+  margin-bottom: 60px;
+ }
+ 
+.titull{
+  font-family: "Cherry Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+
+
+
+
+
+footer {
+    background-color:rgb(188, 180, 160); 
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav .nav-item {
+    padding: 0;
+    margin-right: 0;
+}
+n 
+.nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+
+

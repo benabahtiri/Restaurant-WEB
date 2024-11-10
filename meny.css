@@ -1,0 +1,65 @@
+*{
+    margin: auto;
+}
+
+.navbar-collapse {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .navbar-collapse{
+    margin-left: 200px ;
+    padding: 30px;
+    
+  }
+
+.nav-link:hover{
+    text-decoration: underline; 
+}
+
+.sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  width: 100%;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.ushqim{
+  margin: 50px;
+  font-family: "Waterfall", cursive;
+  font-weight: 400;
+  margin-left: 300px;
+}
+
+
+footer {
+  background-color:rgb(188, 180, 160); 
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav .nav-item {
+  padding: 0;
+  margin-right: 0;
+}
+n 
+.nav .nav-item:last-child {
+  margin-right: 0;
+  
+}

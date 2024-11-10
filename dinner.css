@@ -1,0 +1,141 @@
+*{
+    margin: auto;
+
+}
+
+
+.navbar-collapse {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .navbar-collapse{
+    margin-left: 200px ;
+    padding: 30px;
+    
+  }
+
+.nav-link:hover{
+    text-decoration: underline; 
+}
+
+.sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  width: 100%;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+
+
+.dinner{
+  border: 4px solid rgb(2, 135, 2); 
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  font-weight: bold;
+
+}
+
+.titulli{
+  text-align: center;
+  font-family: "Orelega One", serif;
+font-style: normal;
+color: rgb(223, 181, 197);
+font-size: 60px;
+font-weight: bolder;
+}
+
+
+
+
+.dinnermenu {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.part1, .part2 {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .part1, .part2 {
+    flex: 100%;
+  }
+}
+
+
+
+h1{
+color: rgb(196, 35, 40);
+font-weight: bolder;
+}
+
+
+
+.part3{
+  text-align: center;
+margin-top:70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color:rgb(188, 180, 160); 
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav .nav-item {
+  padding: 0;
+  margin-right: 0;
+}
+
+.nav .nav-item:last-child {
+  margin-right: 0;
+  
+}

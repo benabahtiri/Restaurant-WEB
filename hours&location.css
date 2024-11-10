@@ -1,0 +1,150 @@
+*{
+    margin: auto;
+  
+}
+
+
+.navbar-collapse {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .navbar-collapse{
+    margin-left: 200px ;
+    padding: 30px;
+    
+  }
+
+.nav-link:hover{
+    text-decoration: underline; 
+}
+
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    display: flex;
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+}
+
+
+.slider span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
+}
+
+.slider span:hover img {
+    transform: translateY(-50px) scale(1.2);
+}
+
+
+
+
+.map{
+    padding: 20px;
+    justify-content: center;
+}
+
+.tit-lokacion{
+    text-align: center;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  color: rgb(238, 76, 16);
+  font-size: 50px;
+}
+
+.lokacion{
+    text-decoration: underline;
+}
+
+.hours-location{
+display: flex;
+}
+
+p{
+margin-left: 50px;
+}
+
+h1{
+    margin-bottom: 50px;
+    color: rgb(217, 159, 88);
+    font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+
+
+footer {
+    background-color:rgb(188, 180, 160); 
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav .nav-item {
+    padding: 0;
+    margin-right: 0;
+}
+
+
+.nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+

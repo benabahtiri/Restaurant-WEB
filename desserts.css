@@ -1,0 +1,117 @@
+*{
+    margin: auto;
+}
+
+.navbar-collapse {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .navbar-collapse{
+    margin-left: 200px ;
+    padding: 30px;
+    
+  }
+
+.nav-link:hover{
+    text-decoration: underline; 
+}
+
+.sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  width: 100%;
+}
+
+.nav-link{
+    color: black;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+
+
+
+.desserts{
+  border: 5px solid rgb(175, 19, 71);
+  text-align: center;
+  margin: 20px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.titulli{
+  color: rgb(222, 151, 125);
+  font-size: 70px;
+  font-family: "Sofia", cursive;
+  
+  font-weight: bolder;
+  display: flex;
+  justify-content:space-between;
+}
+
+.paragraf{
+  margin-top: 50px;
+}
+
+.paragraf2{
+  margin-top: 40px;
+}
+
+.paragrafi{
+  margin-top: 40px;
+}
+
+.pjesa1{
+  display: flex;
+
+}
+
+.pjesa2{
+  display: flex;
+}
+
+.pjesa3{
+  display: flex;
+}
+
+.zemra{
+  rotate: 30deg;
+  margin-top: 20px;
+}
+
+
+
+
+
+footer {
+  background-color:rgb(188, 180, 160); 
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav .nav-item {
+  padding: 0;
+  margin-right: 0;
+}
+
+.nav .nav-item:last-child {
+  margin-right: 0;
+  
+}
+
+
+
